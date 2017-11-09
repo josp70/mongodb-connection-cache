@@ -1,5 +1,5 @@
 {
-  "name": "mongodb-connection",
+  "name": "mongodb-connection-cache",
   "version": "0.0.0",
   "description": "small library to share a monogodb connection",
   "main": "index.js",

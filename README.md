@@ -1,4 +1,4 @@
-mongodb-connection
+mongodb-connection-cache
 =========
 
 A simple library to store and share a database connection.
