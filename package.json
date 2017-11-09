@@ -1,0 +1,21 @@
+{
+  "name": "mongodb-connection",
+  "version": "0.0.0",
+  "description": "small library to share a monogodb connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mongodb",
+    "pool"
+  ],
+  "author": "Jorge Suit <josp.jorge@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
