@@ -1,10 +1,14 @@
 {
   "name": "mongodb-connection-cache",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "small library to share a monogodb connection",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josp70/mongodb-connection-cache.git"
   },
   "keywords": [
     "mongodb",
