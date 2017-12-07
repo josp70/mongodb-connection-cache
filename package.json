@@ -1,14 +1,15 @@
 {
   "name": "mongodb-connection-cache",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "small library to share a monogodb connection",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint index.js test/**"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josp70/mongodb-connection-cache.git"
+    "url": "git@gitlab.com:jorge.suit/mongodb-connection.git"
   },
   "keywords": [
     "mongodb",
@@ -16,10 +17,14 @@
   ],
   "author": "Jorge Suit <josp.jorge@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/jorge.suit/mongodb-connection/issues"
+  },
   "dependencies": {
     "mongodb": "^2.2.33"
   },
   "devDependencies": {
+    "eslint": "^4.12.1",
     "mocha": "^4.0.1"
   }
 }
