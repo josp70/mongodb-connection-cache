@@ -1,5 +1,6 @@
 mongodb-connection-cache
 =========
+![build status](https://gitlab.com/jorge.suit/mongodb-connection/badges/master/build.svg)
 
 A simple library to store and share a database connection.
 
@@ -25,6 +26,8 @@ db.get()
 ## Tests
 
   `npm test`
+
+  `npm run lint`
 
 ## Contributing
 
