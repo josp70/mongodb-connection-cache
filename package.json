@@ -1,6 +1,6 @@
 {
   "name": "mongodb-connection-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "small library to share a monogodb connection",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:jorge.suit/mongodb-connection.git"
+    "url": "https://gitlab.com/jorge.suit/mongodb-connection"
   },
   "keywords": [
     "mongodb",
